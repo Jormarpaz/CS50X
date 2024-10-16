@@ -1,0 +1,97 @@
+# Sentimental Cash Project
+
+## Overview
+
+The Sentimental Cash project is a Python application designed to analyze and manage financial transactions with a focus on sentiment analysis. This project leverages natural language processing (NLP) techniques to provide insights into the sentiment behind financial transactions.
+
+## Features
+
+- **Sentiment Analysis:** Analyze the sentiment of transaction descriptions.
+- **Transaction Management:** Add, view, and manage financial transactions.
+- **Reporting:** Generate reports based on sentiment analysis.
+
+## Installation
+
+To install and run this project locally, follow these steps:
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/yourusername/sentimental-cash.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```sh
+    cd sentimental-cash
+    ```
+
+3. Create a virtual environment:
+
+    ```sh
+    python -m venv venv
+    ```
+
+4. Activate the virtual environment:
+
+    - On Windows:
+
+        ```sh
+        venv\Scripts\activate
+        ```
+
+    - On macOS/Linux:
+
+        ```sh
+        source venv/bin/activate
+        ```
+
+5. Install the dependencies:
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To use the Sentimental Cash application, follow these steps:
+
+1. Ensure the virtual environment is activated.
+2. Run the application:
+
+    ```sh
+    python app.py
+    ```
+
+3. Follow the on-screen instructions to add and analyze transactions.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+
+    ```sh
+    git checkout -b feature-branch
+    ```
+
+3. Make your changes and commit them:
+
+    ```sh
+    git commit -m "Description of changes"
+    ```
+
+4. Push to the branch:
+
+    ```sh
+    git push origin feature-branch
+    ```
+
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+Happy coding!
